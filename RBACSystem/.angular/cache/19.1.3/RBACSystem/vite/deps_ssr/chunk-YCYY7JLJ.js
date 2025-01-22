@@ -43,7 +43,6 @@ import {
   numberAttribute,
   performanceMarkFeature,
   registerLocaleData,
-  require_cjs,
   setClassMetadata,
   stringify,
   untracked,
@@ -59,7 +58,10 @@ import {
   ɵɵinject,
   ɵɵinjectAttribute,
   ɵɵstyleProp
-} from "./chunk-GABLOBOU.js";
+} from "./chunk-VURIY7LT.js";
+import {
+  require_cjs
+} from "./chunk-T4XHMJL2.js";
 import {
   __async,
   __spreadProps,
@@ -5070,4 +5072,4 @@ export {
    * License: MIT
    *)
 */
-//# sourceMappingURL=chunk-N72ZKBGF.js.map
+//# sourceMappingURL=chunk-YCYY7JLJ.js.map
