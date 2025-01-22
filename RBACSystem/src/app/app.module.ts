@@ -14,6 +14,7 @@ import { FormsModule } from '@angular/forms';           // For template-driven f
 import { ReactiveFormsModule } from '@angular/forms';
 import { NavComponent } from './components/nav/nav.component';  // For reactive forms
 import {WebcamModule} from 'ngx-webcam';
+import { CameraComponent } from './components/camera/camera.component';
 
 @NgModule({
   declarations: [
@@ -24,14 +25,16 @@ import {WebcamModule} from 'ngx-webcam';
     ManagerPortalComponent,
     LoginComponent,
     RegisterComponent,
-    NavComponent
+    NavComponent,
+    CameraComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule,
-    WebcamModule, 
+    ReactiveFormsModule
+    ,WebcamModule
+
   ],
   providers: [
     provideHttpClient(withInterceptorsFromDi()) // Updated to use new HttpClient setup
